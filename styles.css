@@ -156,3 +156,6 @@ main{
         font-weight: 700px;
 
     }
+    .resume-container{
+        display: flex;
+    }
