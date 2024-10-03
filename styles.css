@@ -16,6 +16,7 @@ nav{
     justify-content: space-between;
     
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -51,3 +52,107 @@ nav a{
     padding: 15px 35px;
 
 }
+.header{
+    background-color:#fff8f3;
+    background-image:url(images/header_bg.png) ;
+    background-repeat:no-repeat  ;
+    background-position: bottom right ;
+}
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.pic{
+ width: 500px; 
+
+}
+.h{
+    font-size: 45px;
+    color: #474747;
+    margin: 0;
+
+}
+.bh{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+.p{
+    max-width: 500px;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 130px 0;
+
+
+
+
+
+}
+.ab{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.pr{
+color: #757575;
+text-align: center;
+font-size: 18px;
+}
+main{
+
+
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.adout-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+ .about-inf{
+    text-align:center;
+    
+ }
+    #id {
+        padding: 30px 150px;
+
+    }
+    .skills{
+        display: flex ;
+        gap: 24px;
+    }
+    .skill{
+        padding: 30px;
+        
+
+        border-radius: 5px;
+
+        background:#fff;
+        box-shadow:0px 0px 50px 0px rgba(0, 0, 0, 0.06)
+    }
+    .skill-description{
+        color: rgb(117, 117, 117);
+    }
+        
+    
+
+    main section{
+        margin-top: 130px ;
+    }
+    .r-c-t{
+        color: #474747;
+        font-size: 30px;
+        font-weight: 700px;
+
+    }
