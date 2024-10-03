@@ -1,20 +1,21 @@
 body {
     // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 800
+    // <weight>: Use a value from 300 to 800
 
-.open-sans-<uniquifier> {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    .open-sans-<uniquifier> {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
 }
-}
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
-    
+
     align-items: center;
     margin: 0 200px;
 }
@@ -24,25 +25,31 @@ nav{
     font-size: 45px;
     font-weight: 800;
 }
+
 .text {
     color: #FD6E0A;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 
 
 }
-nav  li {
-    list-style:none ;
-    margin-right: 50px; ;
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+    ;
 
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
-.b{ 
+
+.b {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -52,12 +59,14 @@ nav a{
     padding: 15px 35px;
 
 }
-.header{
-    background-color:#fff8f3;
-    background-image:url(images/header_bg.png) ;
-    background-repeat:no-repeat  ;
-    background-position: bottom right ;
+
+.header {
+    background-color: #fff8f3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
+
 .banner {
     padding: 30px 30px 0px 150px;
     display: flex;
@@ -65,27 +74,32 @@ nav a{
     justify-content: space-between;
 
 }
-.pic{
- width: 500px; 
+
+.pic {
+    width: 500px;
 
 }
-.h{
+
+.h {
     font-size: 45px;
     color: #474747;
     margin: 0;
 
 }
-.bh{
+
+.bh {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
 
 }
-.p{
+
+.p {
     max-width: 500px;
 }
-.about{
+
+.about {
     padding: 130px;
     border-radius: 10px;
     background: #fff8f3;
@@ -96,66 +110,100 @@ nav a{
 
 
 }
-.ab{
+
+.ab {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 
 }
-.pr{
-color: #757575;
-text-align: center;
-font-size: 18px;
+
+.pr {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
-main{
+
+main {
 
 
     max-width: 1140px;
     margin: 0 auto;
 
 }
-.adout-info-container{
+
+.adout-info-container {
     display: flex;
     justify-content: space-around;
 }
 
- .about-inf{
-    text-align:center;
+.about-inf {
+    text-align: center;
+
+}
+
+#id {
+    padding: 30px 150px;
+
+}
+
+.skills {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+
+
+    border-radius: 5px;
+
+    background: #fff;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.06)
+}
+
+.skill-description {
+    color: rgb(117, 117, 117);
+}
+
+
+
+main section {
+    margin-top: 130px;
+}
+
+.r-c-t {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700px;
+
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-institute,
+.resume-item-description {
+    color: rgb(117, 117, 117);
+
+}
+
+.resume-item-institute {
+    color: #474747;
+    Font-size: 25px
+    font-weight:700px;
+    margin-bottom: 20px
+    margin-top:0px
+  
     
- }
-    #id {
-        padding: 30px 150px;
-
-    }
-    .skills{
-        display: flex ;
-        gap: 24px;
-    }
-    .skill{
-        padding: 30px;
-        
-
-        border-radius: 5px;
-
-        background:#fff;
-        box-shadow:0px 0px 50px 0px rgba(0, 0, 0, 0.06)
-    }
-    .skill-description{
-        color: rgb(117, 117, 117);
-    }
-        
-    
-
-    main section{
-        margin-top: 130px ;
-    }
-    .r-c-t{
-        color: #474747;
-        font-size: 30px;
-        font-weight: 700px;
-
-    }
-    .resume-container{
-        display: flex;
-    }
+}
+.resume-container hr{
+    margin:
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
