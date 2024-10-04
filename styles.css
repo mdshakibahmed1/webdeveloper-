@@ -200,10 +200,47 @@ main section {
   
     
 }
-.resume-container hr{
-    margin:
-}
+
 .download-cv{
     text-align: center;
     margin-top: 50px;
 }
+.section-title{
+    text-align: center;
+
+}
+footer{
+    display: flex;
+    gap: 100px;
+    
+    background-color: rgb(255, 248, 243);
+    margin-top:100px;
+    padding: 100px 200px;
+}
+.footer-column{
+    width: 50%;
+
+}
+
+.social-links a{
+    margin-right: 25px;
+
+}
+ .contact input,
+  textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
+    width: 100%;
+ }
+ 
+ .contact input,#b {
+    color: #FD6E0A;
+    
+    
+ }
+    
